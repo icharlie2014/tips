@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PLTips-Swift.h"
 
 @interface ViewController ()
 
@@ -17,8 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
     
-    [self sortByTime];
+    [self deviceShow];
+}
+
+/**
+ *  设备判断
+ */
+- (void)deviceShow
+{
+    DeviceViewController *deviceViewController = [[DeviceViewController alloc]init];
+    [self addChildViewController:deviceViewController];
+    [self.view addSubview:deviceViewController.view];
 }
 
 /**
