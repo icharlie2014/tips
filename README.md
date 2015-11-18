@@ -10,3 +10,7 @@
 
 2.判断当前手机是何类型（4s，5s，6s)
 
+2015年11月18日14:55:58
+
+1.自定义tabbar https://github.com/icharlie2014/CustomTabBar
+
