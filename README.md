@@ -14,3 +14,9 @@
 
 1.自定义tabbar https://github.com/icharlie2014/CustomTabBar
 
+2015年11月19日11:15:50
+
+1.二维码生成：https://github.com/icharlie2014/erCode
+
+2.二维码扫描：https://github.com/icharlie2014/erCodeScan
+
